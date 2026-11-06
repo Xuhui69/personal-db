@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# 便捷入口：./pdb search "定价"
+exec python3 "$(cd "$(dirname "$0")" && pwd)/pdbcli.py" "$@"

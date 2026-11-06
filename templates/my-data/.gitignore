@@ -1,0 +1,8 @@
+# 索引随时可由 records 重建，不进 git
+index.db
+index.db.tmp
+# 大文件（图片/视频/PDF）单独备份，不进 git；需要时改用 git-lfs
+raw/media/*
+!raw/media/.gitkeep
+.DS_Store
+context*.md

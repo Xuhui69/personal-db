@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+# 安全网：引擎仓库里永远不要出现个人数据
+index.db
+records/
+raw/
+knowledge/
+!templates/my-data/records/
+!templates/my-data/raw/
+!templates/my-data/knowledge/
